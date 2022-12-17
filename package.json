@@ -1,0 +1,24 @@
+{
+  "name": "excel-html-pdf-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubensLFerreira/EXCEL-HTML-PDF-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubensLFerreira/EXCEL-HTML-PDF-converter/issues"
+  },
+  "homepage": "https://github.com/RubensLFerreira/EXCEL-HTML-PDF-converter#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "html-pdf": "^3.0.1"
+  }
+}
