@@ -1,11 +1,12 @@
 const Reader = require("./controllers/Reader");
+const Processor = require('./controllers/Processor');
 
 const reader = new Reader();
 
 async function main() {
-  const dates = await reader.Read("../src/dates/users.csv");
-
-  console.log(dates);
+  const data = await reader.Read("../src/data/users.csv");
+  const processedData = Processor.Process(data);
+  console.log(processedData);
 }
 
 main();
